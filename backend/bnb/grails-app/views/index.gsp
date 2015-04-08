@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@ page import="org.apache.shiro.SecurityUtils" %>
 <html>
 	<head>
 		<meta name="layout" content="main"/>
@@ -101,7 +102,7 @@
 					<li>${plugin.name} - ${plugin.version}</li>
 				</g:each>
 			</ul>
-		</div>
+		</div>                
 		<div id="page-body" role="main">
 			<h1>Welcome to Grails</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment

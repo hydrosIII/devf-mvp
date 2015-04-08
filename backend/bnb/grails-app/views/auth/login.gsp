@@ -28,6 +28,12 @@
           <td />
           <td><input type="submit" value="Sign in" /></td>
         </tr>
+        <tr>
+          <td/>
+          <td>
+              <oauth:connect provider="twitter">Log in with Twitter</oauth:connect>
+          </td>
+        </tr>
       </tbody>
     </table>
   </g:form>

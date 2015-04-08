@@ -8,9 +8,14 @@ class ShiroSecurityFilters {
             before = {
                 // Ignore direct views (e.g. the default main index page).
                 if (!controllerName) return true
-
+                if ((controllerName) in ['oauth', 'shiroOAuth', 'linkAccount']) {
+                    return true
+                }else{
                 // Access control by convention.
+                
                 accessControl()
+                    
+                }
             }
         }
     }

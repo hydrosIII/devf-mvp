@@ -8,8 +8,8 @@ class BootStrap {
         adminRole.addToPermissions("*:*")
         adminRole.save()
         
-        def userRole = new ShiroRole(name: "User")
-        userRole.addToPermissions("*.*")
+        def userRole = new ShiroRole(name: "UsuarioComun")
+        userRole.addToPermissions("*:*")
         userRole.save()
         
         Usuario user = new Usuario(

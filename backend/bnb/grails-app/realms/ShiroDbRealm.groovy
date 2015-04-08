@@ -2,7 +2,9 @@ import org.apache.shiro.authc.AccountException
 import org.apache.shiro.authc.IncorrectCredentialsException
 import org.apache.shiro.authc.UnknownAccountException
 import org.apache.shiro.authc.SimpleAccount
+import org.apache.shiro.authc.AuthenticationToken
 import org.apache.shiro.authz.permission.WildcardPermission
+import grails.plugin.shiro.oauth.TwitterOAuthToken
 
 class ShiroDbRealm {
     static authTokenClass = org.apache.shiro.authc.UsernamePasswordToken
@@ -31,7 +33,7 @@ class ShiroDbRealm {
 
         // Now check the user's password against the hashed value stored
         // in the database.
-        def account = new SimpleAccount(username, user.passwordHash, "ShiroDbRealm")
+        def account = new SimpleAccount([username, user.id], user.passwordHash, "ShiroDbRealm")
         if (!credentialMatcher.doCredentialsMatch(authToken, account)) {
             log.info "Invalid password (DB realm)"
             throw new IncorrectCredentialsException("Invalid password for user '${username}'")
@@ -68,7 +70,12 @@ class ShiroDbRealm {
         //
         // First find all the permissions that the user has that match
         // the required permission's type and project code.
-        def user = ShiroUser.findByUsername(principal)
+        def user 
+        user = ShiroUser.get(principal as Long)
+        if(!user){
+            user = ShiroUser.findByUsername(principal)                    
+        }
+        
         def permissions = user.permissions
 
         // Try each of the permissions found and see whether any of
@@ -97,7 +104,12 @@ class ShiroDbRealm {
         // If not, does he gain it through a role?
         //
         // Get the permissions from the roles that the user does have.
-        def results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.username = '$principal'")
+        def results
+        results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.id = $principal")
+        if(!results){
+        results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.username = '$principal'")
+        }
+        
 
         // There may be some duplicate entries in the results, but
         // at this stage it is not worth trying to remove them. Now,
@@ -126,5 +138,8 @@ class ShiroDbRealm {
         else {
             return false
         }
+    }
+    boolean supports(AuthenticationToken token){
+        true
     }
 }
