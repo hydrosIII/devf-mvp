@@ -1,9 +1,11 @@
 package com.devf.bnb
 
-class Usuario {
-    String username
-    String password
+class Usuario extends ShiroUser {
+    String nombreCompleto
     static hasMany = [reservas: Reserva]
     static constraints = {
+    }
+    public String toString(){
+        nombreCompleto
     }
 }

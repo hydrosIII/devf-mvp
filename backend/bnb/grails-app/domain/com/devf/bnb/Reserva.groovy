@@ -8,4 +8,7 @@ class Reserva {
     static belongsTo = [usuario: Usuario, casa: Casa]
     static constraints = {
     }
+    public String toString(){
+        ""+fechaInicio+" al "+fechaFin
+    }
 }
