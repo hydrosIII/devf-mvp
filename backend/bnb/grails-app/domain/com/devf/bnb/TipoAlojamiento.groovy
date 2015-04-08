@@ -1,9 +1,7 @@
 package com.devf.bnb
 
-class Pais {
+class TipoAlojamiento {
     String nombre
-    String descripcion
-    static hasMany =[casas: Casa]
     static constraints = {
     }
     public String toString(){
