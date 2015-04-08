@@ -84,4 +84,4 @@ grails.project.dependency.resolution = {
     }
 }
 
-grails.server.port.http = 80
+grails.server.port.http = 8080

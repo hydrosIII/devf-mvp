@@ -71,7 +71,9 @@ class ShiroDbRealm {
         // First find all the permissions that the user has that match
         // the required permission's type and project code.
         def user 
-        user = ShiroUser.get(principal as Long)
+        if(principal.isNumber()){
+            user = ShiroUser.get(principal as Long)
+        }
         if(!user){
             user = ShiroUser.findByUsername(principal)                    
         }
@@ -105,7 +107,9 @@ class ShiroDbRealm {
         //
         // Get the permissions from the roles that the user does have.
         def results
-        results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.id = $principal")
+        if(principal.isNumber()){
+            results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.id = $principal")
+        }
         if(!results){
         results = ShiroUser.executeQuery("select distinct p from ShiroUser as user join user.roles as role join role.permissions as p where user.username = '$principal'")
         }
