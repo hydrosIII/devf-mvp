@@ -130,6 +130,14 @@ oauth {
             successUri = '/linkAccount/onSuccess?provider=twitter'
             failureUri = '/unauthorized'
         }
+        facebook {
+            api = org.scribe.builder.api.FacebookApi
+            key = '330677020474802'
+            secret = '54872f37dec822c3d7a8573d5eb12ec2'
+            successUri = '/linkAccount/onSuccess?provider=facebook'
+            failureUri = '/unauthorized'
+            callback = "http://www.earthbnb.mx/oauth/facebook/callback"
+        }
     }
 }
 security.shiro.oauth.linkAccountUrl = "/linkAccount"
