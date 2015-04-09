@@ -134,7 +134,12 @@
                                                                         </shiro:notAuthenticated>
                                                                         <shiro:authenticated>
                                                                         <li><g:link controller="auth" action="signOut">Logout</g:link></li>
+                                                                        <shiro:hasRole role="Administrador">                                                                        
+                                                                        </shiro:hasRole>
+                                                                        <shiro:hasRole role="UsuarioComun">
                                                                         <li><g:link controller="reservacion" action="explorar">Explorar</g:link></li>
+                                                                        <li><g:link controller="reservacion" action="hechas">Mis Reservaciones</g:link></li>
+                                                                        </shiro:hasRole>
                                                                         </shiro:authenticated>
 									<li><a href="#">Contact Us</a></li>
 								</ul>

@@ -3,6 +3,15 @@ import org.apache.shiro.SecurityUtils
 
 class ReservacionController {
 
+    def hechas(){
+        def usuario 
+        if(SecurityUtils.subject.principal instanceof Long){
+            usuario = Usuario.get(SecurityUtils.subject.principal)           
+        }else{
+            usuario = Usuario.findByUsername(SecurityUtils.subject.principal)           
+        }
+        [usuario: usuario]
+    }
     def explorar(){
         def casas 
         if(params.ciudad){
