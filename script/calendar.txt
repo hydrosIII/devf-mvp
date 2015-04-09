@@ -1,0 +1,6 @@
+	<script>
+	var $j = jQuery.noConflict();
+	$j(document).ready(function(){
+		$j('#calendar').datepicker();
+		});
+	</script>
