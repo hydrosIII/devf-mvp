@@ -383,31 +383,31 @@
 									<div class="img-box-3-icon bg-red">
 										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '10.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="index.html#">Consequatr</a></h4>
+									<h4><g:link controller="home" action="index"></g:link></h4>
 									<div class="bor bg-red"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>Sin restricción de horario y completamente gratis</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-lblue">
-										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '3.png')}" alt="" class="img-responsive" /></a>
+										<g:link controller="reservacion" action="explorar"><img src="${resource(dir: 'brave/img/flat-icons', file: '3.png')}" alt="" class="img-responsive" /></g:link>
 									</div>
-									<h4><a href="index.html#">Doloribues</a></h4>
+									<h4><g:link controller="reservacion">Galeria de Casas</g:link></h4>
 									<div class="bor bg-lblue"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>Si lo tuyo es lo visual busca un lugar para hosperdarte desde nuestra galeria.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-green">
-										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '17.png')}" alt="" class="img-responsive" /></a>
+										<g:link controller="auth" action="login"><img src="${resource(dir: 'brave/img/flat-icons', file: '17.png')}" alt="" class="img-responsive" /></g:link>
 									</div>
-									<h4><a href="index.html#">Perferends</a></h4>
+									<h4><g:link controller="auth" action="login">Registrate</g:link></h4>
 									<div class="bor bg-green"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>Inicia sesión o abre una cuenta con 2 clicks.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -416,9 +416,9 @@
 									<div class="img-box-3-icon bg-blue">
 										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '20.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="index.html#">Repellat</a></h4>
+									<h4><a href="index.html#">Reserva</a></h4>
 									<div class="bor bg-blue"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+                                                                        <p>Estas un minuto de distancia a tus mejores vacaciones.<br>Reserva ya!</p>
 								</div>
 							</div>
 						</div>	
