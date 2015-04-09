@@ -9,14 +9,13 @@ class Casa {
     Double precio
     Double capacidad    
     static hasMany = [reservas: Reserva]
-    static belongsTo = [pais: Pais, tipoAlojamiento: TipoAlojamiento, tipoHabitacion: TipoHabitacion]    
+    static belongsTo = [ciudad: Ciudad, tipoAlojamiento: TipoAlojamiento, tipoHabitacion: TipoHabitacion]    
     static constraints = {
         titulo()
         precio()
         tipoAlojamiento()
         tipoHabitacion()
         descripcion()
-        pais()
         direccion()
         lat()
         lon()

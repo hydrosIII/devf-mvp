@@ -34,6 +34,12 @@
               <oauth:connect provider="twitter">Log in with Twitter</oauth:connect>
           </td>
         </tr>
+        <tr>
+          <td/>
+          <td>
+              <oauth:connect provider="facebook">Log in with Facebook</oauth:connect>
+          </td>
+        </tr>
       </tbody>
     </table>
   </g:form>

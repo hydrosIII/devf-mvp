@@ -14,11 +14,12 @@ class LinkAccountController {
 
     def index(){  
         ShiroRole role = ShiroRole.findByName("UsuarioComun")
-        def username = params.username
+        println("session.shiroAuthToken:"+session.shiroAuthToken.properties)
+        
         def email = params.email
         def nombreCompleto = params.nombreCompleto
         String password = randomUUID() as String
-        if(username && email && nombreCompleto){
+        if(email && nombreCompleto){
             Usuario usuario = new Usuario(
                 username: session.shiroAuthToken.principal,
                 passwordHash: new Sha256Hash(password).toHex(),

@@ -18,10 +18,6 @@
             <table>
                 <tbody>
                     <tr>
-                        <td>Username:</td>
-                        <td><input type="text" name="username" value="${session.shiroAuthToken.principal}" /></td>
-                    </tr>
-                    <tr>
                         <td>Nombre Completo:</td>
                         <td><input type="text" name="nombreCompleto" value="" /></td>
                     </tr>
