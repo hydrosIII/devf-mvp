@@ -75,7 +75,7 @@
 					
 					<!-- Search section for responsive design -->
 					<div class="tb-search pull-left">
-						<a href="index.html#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
+						<a href="index.html" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
 						<div class="b-dropdown-block">
 							<form role="form">
 								<!-- Input Group -->
@@ -127,16 +127,16 @@
 							<div class="navy">			
 								<ul>
 									<!-- Main menu -->
-									<li><a href="index.html#">Home</a>										
+									<li><g:link controller="home" action="index">Nuestra Casa</g:link>										
 									</li>																	
                                                                         <shiro:notAuthenticated>
 									<li><g:link controller="auth" action="login">Login</g:link></li>
                                                                         </shiro:notAuthenticated>
                                                                         <shiro:authenticated>
                                                                         <li><g:link controller="auth" action="signOut">Logout</g:link></li>
-                                                                        <li><g:link controller="reservacion" action="explorar">Explorar</g:link></li>
+                                                                        <li><g:link controller="reservacion" action="explorar">encuentra tu hospedaje de hoy</g:link></li>
                                                                         </shiro:authenticated>
-									<li><a href="contact-us-one.html">Contact Us</a></li>
+									<li><a href="contact-us-one.html">Di Hola!!</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->
@@ -186,8 +186,9 @@
 							<!-- Foot Item -->
 							<div class="foot-item">
 								<!-- Heading -->
-								<h5 class="bold"><i class="fa fa-user"></i>&nbsp;&nbsp;About</h5>
-								<p>Itaque earum rerum hic tenetur a atque atatum dele niti atque tenetur a atque atatum tenetur volup tatum.</p>
+								<h5 class="bold"><i class="fa fa-user"></i>Hola!</h5>
+								<p>No importa a donde viajes, con EarthBnb encontraras hospedaje
+                                                                en cualquier lugar de México, donde vayas te acompañamos.</p>
 								<div class="brand-bg">
 									<!-- Social Media Icons -->
 									<a href="index.html#" class="facebook"><i class="fa fa-facebook circle-3"></i></a>
@@ -197,14 +198,14 @@
 									<a href="index.html#" class="pinterest"><i class="fa fa-pinterest circle-3"></i></a>
 								</div>
 								<div class="subscribe-box">
-									<h5 class="bold">Subscribe :</h5>
+									<h5 class="bold">Subscríbete :</h5>
 									<!-- Form -->
 									<form role="form">
 										<!-- Input Group -->
 										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Enter Email Id">
+											<input type="text" class="form-control" placeholder="ingresa tu email">
 											<span class="input-group-btn">
-												<button class="btn btn-color" type="button">Subscribe</button>
+												<button class="btn btn-color" type="button">Me suscribo</button>
 											</span>
 										</div>
 									</form>
@@ -215,17 +216,17 @@
 							<!-- Foot Item -->
 							<div class="foot-item">
 								<!-- Heading -->
-								<h5 class="bold"><i class="fa fa-building-o"></i>&nbsp;&nbsp;Contact Us</h5>
+								<h5 class="bold"><i class="fa fa-building-o"></i>&nbsp;&nbsp;Tienes dudas? Contáctanos</h5>
 								<!-- Foot Item Content -->
 								<div class="foot-item-content address">
 									<!-- Heading -->
-									<h6 class="bold"><i class="fa fa-home"></i>&nbsp;&nbsp;Hanks Ltd</h6>
+									<h6 class="bold"><i class="fa fa-home"></i>&nbsp;&nbsp;EarthBnb Ltd</h6>
 									<!-- Paragraph -->
 									<p class="add">
-									   Bharathi Nagar, South Cherry Road,<br />
-									   North Bangalore - 535089.</p>
-									<p class="tel"> <i class="fa fa-phone"></i> Tel : + (833) - 839 8393<br />
-									<i class="fa fa-envelope"></i>  Mail : <a href="index.html#">infodesk@uk.com</a><br />
+									   Santo Lodito Piedas Cuchis<br />
+									   Tejeringo El Chico - 535089.</p>
+									<p class="tel"> <i class="fa fa-phone"></i> Tel : + (52) - 55 839 8393<br />
+									<i class="fa fa-envelope"></i>  Mail : <a href="index.html#">hola@earthbnb.com</a><br />
 									<i class="fa fa-calendar"></i> Business Hours : 9:30 - 5:30</p>
 								</div>
 							</div>
