@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>UI #40</title>
+        <title>Login</title>
         <!-- Description, Keywords and Author -->
         <meta name="description" content="Your description">
         <meta name="keywords" content="Your,Keywords">
@@ -33,7 +33,7 @@
             <div class="ui-40">
                 <div class="ui-head bg-lblue">
                         <!-- Heading -->
-                    <h2>SIGNUP</h2>
+                    <h2>Entrar</h2>
                 </div>
                 <!-- Ui-block -->
                 <div class="ui-block bg-white">
@@ -52,7 +52,7 @@
                         <i class="fa fa-unlock-alt lblue"></i>
                     </div>
                     <div class="ui-input">
-                        <input type="text" class="form-control" placeholder="Password" name="password" value="" >
+                        <input type="password" class="form-control" placeholder="Password" name="password" value="" >
                     </div>
                 </div>
                 <div class="clearfix"></div>
