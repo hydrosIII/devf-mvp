@@ -45,6 +45,55 @@ class BootStrap {
         new Ciudad(nombre: "Oaxaca", titulo: "Patrimonio Cultural de la Humanidad por la UNESCO", descripcion:"Posee cumbres de más de tres mil metros de altura (casi diez mil pies), cavernas que se encuentran entre las más profundas del mundo, playas vírgenes, selvas escondidas y valles luminosos que acogen poblaciones donde se funden, como en un crisol, las culturas de todos los pueblos que han pasado por su piel.").save()
         new Ciudad(nombre:"Distrito Federal",  titulo:"Chilangolandia", descripcion:"a Ciudad de México, Distrito Federal, o en su forma abreviada México, D. F., es la capital y sede de los poderes federales de los Estados Unidos Mexicanos").save()
         
+        new Casa(
+            titulo:"La casa numero unno",            
+            descripcion:"Esta es una casa muy bonita y asi",
+            direccion: "Constituyentes 2231",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Oaxaca"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"La casa numero dos",            
+            descripcion:"Esta es una casa muy bonita y asi",
+            direccion: "Constituyentes 2231",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Oaxaca"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"La casa numero tres",            
+            descripcion:"Esta es una casa muy bonita y asi",
+            direccion: "Constituyentes 2231",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Distrito Federal"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"La casa numero cuatro",            
+            descripcion:"Esta es una casa muy bonita y asi",
+            direccion: "Constituyentes 2231",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Distrito Federal"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        
     }
     def destroy = {
     }
