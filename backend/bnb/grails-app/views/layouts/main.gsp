@@ -118,7 +118,7 @@
 						<div class="col-md-2">
 							<!-- Logo section -->
 							<div class="logo">
-								<h1><a href="index.html#"><i class="fa fa-laptop"></i> Brave</a></h1>
+                                                            <img src="${resource(dir: 'brave/img', file: 'earthbnb.png')}" style="height: 40px;"/>
 							</div>
 						</div>
 						<div class="col-md-9">
