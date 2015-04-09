@@ -176,7 +176,7 @@
 										data-speed="800"
 										data-start="2800"
 										style="z-index: 8">
-										<a href="#" class="bg-color rounded-1">Buy It Now</a>
+										<a href="index.html#" class="bg-color rounded-1">Buy It Now</a>
 									</div>									
 									
 								</li>
@@ -367,8 +367,8 @@
 					
 					<br />
 					<div class="text-center">
-						<h3><span class="color">Brave</span>. Most Amazing Theme Ever Made. <span class="color">Literally</span>.</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod sapien. Donec eu feugiat enim, sed tempus arcu. <br /> Pellentesque magna nisi, consectetur eget psum primis eros, et neque sit amet, lobortis elit. </p>
+						<h3><span class="color">EarthBnb</span>. La mejor opción para encontrar hospedaje. <span class="color">Literal!!</span>.</h3>
+						<p>No importa a donde viajes, con EarthBnb encontrarás hospedaje en cualquier lugar de México, donde vayas te acompañamos.</p>
 					</div>
 					
 					<div class="divider-1"></div>
@@ -381,9 +381,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-red">
-										<a href="#"><img src="${resource(dir: 'brave/img/flat-icons', file: '10.png')}" alt="" class="img-responsive" /></a>
+										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '10.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Consequatr</a></h4>
+									<h4><a href="index.html#">Consequatr</a></h4>
 									<div class="bor bg-red"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -392,9 +392,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-lblue">
-										<a href="#"><img src="${resource(dir: 'brave/img/flat-icons', file: '3.png')}" alt="" class="img-responsive" /></a>
+										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '3.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Doloribues</a></h4>
+									<h4><a href="index.html#">Doloribues</a></h4>
 									<div class="bor bg-lblue"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -403,9 +403,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-green">
-										<a href="#"><img src="${resource(dir: 'brave/img/flat-icons', file: '17.png')}" alt="" class="img-responsive" /></a>
+										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '17.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Perferends</a></h4>
+									<h4><a href="index.html#">Perferends</a></h4>
 									<div class="bor bg-green"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -414,9 +414,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-blue">
-										<a href="#"><img src="${resource(dir: 'brave/img/flat-icons', file: '20.png')}" alt="" class="img-responsive" /></a>
+										<a href="index.html#"><img src="${resource(dir: 'brave/img/flat-icons', file: '20.png')}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Repellat</a></h4>
+									<h4><a href="index.html#">Repellat</a></h4>
 									<div class="bor bg-blue"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
