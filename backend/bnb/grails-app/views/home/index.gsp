@@ -24,7 +24,7 @@
 										data-y="25" data-voffset="0"
 										data-speed="500"
 										data-start="200"
-										style="z-index: 2;">Cientos de casas
+										style="z-index: 2;">Los mejores hostsCientos de casas
 									</div>
 
 									<!-- Layer 2 -->
@@ -33,7 +33,7 @@
 										data-y="60" data-voffset="0"
 										data-speed="500"
 										data-start="700"
-										style="z-index: 2;">Los mejores hosts
+										style="z-index: 2;">Cientos de casas
 									</div>									
 								
 									<!-- Layer 3 -->
@@ -238,7 +238,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">YAA !!!
+										style="z-index: 7">YA !!!
 									</div>
 
 									<!-- LAYER NR. 7 -->
@@ -250,7 +250,7 @@
 										data-autoplay="true"
 										data-autoplayonlyfirsttime="true"
 										data-nextslideatend="true"
-										style="z-index: 8"><iframe src='https://www.youtube.com/embed/jhNszvpJxho?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
+										style="z-index: 8"><iframe src='https://www.youtube.com/watch?v=k4tkrJ563b0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
 									</div>
 								</li>
 								<!-- Slide #4 ends -->
@@ -266,7 +266,7 @@
 										data-y="80"
 										data-speed="500"
 										data-start="800"
-										style="z-index: 4">Jamas 
+										style="z-index: 4">Jamas tendras
 									</div>
 
 									<!-- Layer 2 -->
@@ -276,7 +276,7 @@
 										data-speed="500"
 										data-start="900"
 										style="z-index: 5">
-										tendras
+										problemas
 									</div>
 
 									<!-- Layer 3 -->
@@ -285,7 +285,7 @@
 										data-y="148"
 										data-speed="300"
 										data-start="1000"
-										style="z-index: 6">problemas
+										style="z-index: 6">con
 									</div>
 
 									<!-- Layer 4 -->
@@ -294,7 +294,7 @@
 										data-y="132"
 										data-speed="300"
 										data-start="1100"
-										style="z-index: 7">con nosotros
+										style="z-index: 7">nosotros
 									</div>
 
 									<!-- Layer 5 -->
