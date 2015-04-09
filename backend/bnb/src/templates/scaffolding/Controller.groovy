@@ -35,13 +35,7 @@ class ${className}Controller {
 
         ${propertyName}.save flush:true
 
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: '${domainClass.propertyName}.label', default: '${className}'), ${propertyName}.id])
-                redirect ${propertyName}
-            }
-            '*' { respond ${propertyName}, [status: CREATED] }
-        }
+        redirect action:"index"
     }
 
     def edit(${className} ${propertyName}) {

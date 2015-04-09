@@ -1,47 +1,88 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="layout" content="main" />
-  <title>Login</title>
-</head>
-<body>
-  <g:if test="${flash.message}">
-    <div class="message">${flash.message}</div>
-  </g:if>
-  <g:form action="signIn">
-    <input type="hidden" name="targetUri" value="${targetUri}" />
-    <table>
-      <tbody>
-        <tr>
-          <td>Username:</td>
-          <td><input type="text" name="username" value="${username}" /></td>
-        </tr>
-        <tr>
-          <td>Password:</td>
-          <td><input type="password" name="password" value="" /></td>
-        </tr>
-        <tr>
-          <td>Remember me?:</td>
-          <td><g:checkBox name="rememberMe" value="${rememberMe}" /></td>
-        </tr>
-        <tr>
-          <td />
-          <td><input type="submit" value="Sign in" /></td>
-        </tr>
-        <tr>
-          <td/>
-          <td>
-              <oauth:connect provider="twitter">Log in with Twitter</oauth:connect>
-          </td>
-        </tr>
-        <tr>
-          <td/>
-          <td>
-              <oauth:connect provider="facebook">Log in with Facebook</oauth:connect>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </g:form>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>UI #40</title>
+        <!-- Description, Keywords and Author -->
+        <meta name="description" content="Your description">
+        <meta name="keywords" content="Your,Keywords">
+        <meta name="author" content="ResponsiveWebInc">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Styles -->
+<!-- Bootstrap CSS -->
+        <link href="/brave/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font awesome CSS -->
+        <link href="/brave/css/font-awesome.min.css" rel="stylesheet">		
+        <!-- Custom CSS -->
+        <link href="/brave/css/style-40.css" rel="stylesheet">
+
+<!-- Favicon -->
+        <link rel="shortcut icon" href="#">
+    </head>
+    <!-- Body -->
+    <body>
+
+                <!-- Form -->
+        <g:form action="signIn">
+                <!-- Ui-40 -->
+            <g:if test="${flash.message}">
+                <div class="message">${flash.message}</div>
+            </g:if>
+            <div class="ui-40">
+                <div class="ui-head bg-lblue">
+                        <!-- Heading -->
+                    <h2>SIGNUP</h2>
+                </div>
+                <!-- Ui-block -->
+                <div class="ui-block bg-white">
+                        <!-- Icon -->
+                    <div class="ui-icon">
+                        <i class="fa fa-envelope lblue"></i>
+                    </div>
+                    <!-- Input box -->
+                    <div class="ui-input">
+                        <input type="text" class="form-control" placeholder="Usuario"  name="username" value="${username}" >
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="ui-block bg-white">
+                    <div class="ui-icon">
+                        <i class="fa fa-unlock-alt lblue"></i>
+                    </div>
+                    <div class="ui-input">
+                        <input type="text" class="form-control" placeholder="Password" name="password" value="" >
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="bg-white">
+                        <oauth:connect provider="twitter"  class="btn btn-default" style="margin-left: 3px; margin-top: 5px; margin-bottom: 5px;">Entrar con Twitter</oauth:connect>
+                        <oauth:connect provider="facebook" class="btn btn-default">Entrar con Facebook</oauth:connect>
+                </div>
+                <div class="clearfix"></div>
+                <!-- Footer -->
+                <div class="ui-foot bg-lblue">
+                        <!-- Buttons -->
+                    <button type="submit" class="ui-button">Entrar</button> 
+                </div>
+            </div>
+        </g:form>
+
+
+
+
+<!-- Bootstrap javascript links --->
+<!-- Jquery file -->
+        <script src="/brave/js/jquery-2.1.1.min.js"></script>
+        <!-- Bottstrap min js file -->
+        <script src="/brave/js/bootstrap.min.js"></script>
+        <!-- placeholder file -->
+        <script src="/brave/js/placeholders.js"></script>
+        <!-- Html file -->
+        <script src="/brave/js/html5shiv.js"></script>
+        <!-- Respond file-->
+        <script src="/brave/js/respond.min.js"></script>
+
+    </body>
 </html>

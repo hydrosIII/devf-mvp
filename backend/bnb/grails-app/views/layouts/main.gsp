@@ -17,6 +17,7 @@
 		<link href="${resource(dir: 'brave/css', file: 'font-awesome.min.css')}" rel="stylesheet">
 		<!-- Magnific Popup -->
 		<link href="${resource(dir: 'brave/css', file: 'magnific-popup.css')}" rel="stylesheet">
+                <link href="${resource(dir: 'brave/css', file: 'magnific-popup.css')}" rel="stylesheet">
 		<!-- Owl carousel -->
 		<link href="${resource(dir: 'brave/css', file: 'owl.carousel.css')}" rel="stylesheet">
 		
@@ -26,6 +27,7 @@
 		
 		<!-- Base style -->
 		<link href="${resource(dir: 'brave/css/styles', file: 'style.css')}" rel="stylesheet">
+                <link href="${resource(dir: 'brave/css/styles', file: 'real-estate.css')}" rel="stylesheet">
 		<!-- Skin CSS -->
 		<link href="${resource(dir: 'brave/css/styles', file: 'skin-lblue.css')}" rel="stylesheet" id="color_theme">
 		
@@ -127,7 +129,7 @@
 									<!-- Main menu -->
 									<li><a href="index.html#">Home</a>										
 									</li>																	
-									<li><a href="about-us-one.html">Login</a></li>
+									<li><g:link controller="auth" action="login">Login</g:link></li>
 									<li><a href="contact-us-one.html">Contact Us</a></li>
 								</ul>
 							</div>							
@@ -164,9 +166,8 @@
 			<!-- Header two ends -->
 			
 			<!-- Main content starts -->
-	
+
 			<g:layoutBody/>
-			
 			<!-- Main content ends -->
 			
 			<!-- Foot Starts -->
@@ -377,6 +378,8 @@
 		
 		<!-- Custom JS. Type your JS code in custom${resource(dir: 'brave/js', file: '.js')} file -->
 		<script src="${resource(dir: 'brave/js', file: 'custom.js')}"></script>
-		
+		<script>
+                    $('select, input, textarea').addClass('form-control')
+                </script>
 	</body>	
 </html>
