@@ -367,8 +367,8 @@
 					
 					<br />
 					<div class="text-center">
-						<h3><span class="color">Brave</span>. Most Amazing Theme Ever Made. <span class="color">Literally</span>.</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod sapien. Donec eu feugiat enim, sed tempus arcu. <br /> Pellentesque magna nisi, consectetur eget psum primis eros, et neque sit amet, lobortis elit. </p>
+						<h3><span class="color">EarthBnb</span>. La mejor opción para encontrar hospedaje. <span class="color">Literal!!</span>.</h3>
+						<p>No importa a donde viajes, con EarthBnb encontrarás hospedaje en cualquier lugar de México, donde vayas te acompañamos.</p>
 					</div>
 					
 					<div class="divider-1"></div>
