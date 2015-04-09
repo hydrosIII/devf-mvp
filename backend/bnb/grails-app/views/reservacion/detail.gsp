@@ -37,9 +37,9 @@
 								<div class="nav-tabs-one">
 									<!-- Nav tabs -->
 									<ul class="nav nav-tabs">
-										<li class="active"><a href="real-estate-property-single.html#p-nav-1" data-toggle="tab">Detalles</a></li>
-										<li><a href="real-estate-property-single.html#p-nav-2" data-toggle="tab">Ubicacion</a></li>
-										<li><a href="real-estate-property-single.html#p-nav-3" data-toggle="tab">Precio</a></li>
+										<li class="active"><a href="#p-nav-1" data-toggle="tab">Detalles</a></li>
+										<li><a href="#p-nav-2" data-toggle="tab">Ubicacion</a></li>
+										<li><a href="#p-nav-3" data-toggle="tab">Precio</a></li>
 									</ul>
 									<!-- Tab content -->
 									<div class="tab-content">
@@ -86,10 +86,10 @@
 														</div>
 													</div>
 													<!-- Carousel controls (arrows). If you don't need controls, remove the below section -->
-													<a class="left carousel-control" href="real-estate-property-single.html#bs-carousel-1" role="button" data-slide="prev">
+													<a class="left carousel-control" href="#bs-carousel-1" role="button" data-slide="prev">
 														<span class="fa fa-chevron-left"></span>
 													</a>
-													<a class="right carousel-control" href="real-estate-property-single.html#bs-carousel-1" role="button" data-slide="next">
+													<a class="right carousel-control" href="#bs-carousel-1" role="button" data-slide="next">
 														<span class="fa fa-chevron-right"></span>
 													</a>
 												</div>
@@ -165,20 +165,20 @@
 										<!-- Widgets Content -->
 										<div class="widget-content brand-bg">
 											<!-- Social Media Icons -->
-											<a href="real-estate-property-single.html#" class="facebook"><i class="fa fa-facebook square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="twitter"><i class="fa fa-twitter square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="google-plus"><i class="fa fa-google-plus square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="linkedin"><i class="fa fa-linkedin square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="pinterest"><i class="fa fa-pinterest square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="dropbox"><i class="fa fa-dropbox square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="foursquare"><i class="fa fa-foursquare square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="flickr"><i class="fa fa-flickr square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="github"><i class="fa fa-github square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="instagram"><i class="fa fa-instagram square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="skype"><i class="fa fa-skype square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="tumblr"><i class="fa fa-tumblr square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="dribbble"><i class="fa fa-dribbble square-3 rounded-1"></i></a>
-											<a href="real-estate-property-single.html#" class="youtube"><i class="fa fa-youtube square-3 rounded-1"></i></a>
+											<a href="#" class="facebook"><i class="fa fa-facebook square-3 rounded-1"></i></a>
+											<a href="#" class="twitter"><i class="fa fa-twitter square-3 rounded-1"></i></a>
+											<a href="#" class="google-plus"><i class="fa fa-google-plus square-3 rounded-1"></i></a>
+											<a href="#" class="linkedin"><i class="fa fa-linkedin square-3 rounded-1"></i></a>
+											<a href="#" class="pinterest"><i class="fa fa-pinterest square-3 rounded-1"></i></a>
+											<a href="#" class="dropbox"><i class="fa fa-dropbox square-3 rounded-1"></i></a>
+											<a href="#" class="foursquare"><i class="fa fa-foursquare square-3 rounded-1"></i></a>
+											<a href="#" class="flickr"><i class="fa fa-flickr square-3 rounded-1"></i></a>
+											<a href="#" class="github"><i class="fa fa-github square-3 rounded-1"></i></a>
+											<a href="#" class="instagram"><i class="fa fa-instagram square-3 rounded-1"></i></a>
+											<a href="#" class="skype"><i class="fa fa-skype square-3 rounded-1"></i></a>
+											<a href="#" class="tumblr"><i class="fa fa-tumblr square-3 rounded-1"></i></a>
+											<a href="#" class="dribbble"><i class="fa fa-dribbble square-3 rounded-1"></i></a>
+											<a href="#" class="youtube"><i class="fa fa-youtube square-3 rounded-1"></i></a>
 										</div>
 									</div>
 								</div>

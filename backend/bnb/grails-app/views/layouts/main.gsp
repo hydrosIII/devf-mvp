@@ -35,7 +35,7 @@
 		<link href="${resource(dir: 'brave/css', file: 'custom.css')}" rel="stylesheet">
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="index.html#">
+		<link rel="shortcut icon" href="#">
 	</head>
 	
 	<!-- Add class "boxed" along with body for boxed layout. -->
@@ -63,19 +63,19 @@
 					
 					<!-- Langauge starts -->
 					<div class="tb-language dropdown pull-right">
-						<a href="index.html#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
+						<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
 						<!-- Dropdown menu with languages -->
 						<ul class="dropdown-menu dropdown-mini" role="menu">
-							<li><a href="index.html#">Hindi</a></li>
-							<li><a href="index.html#">Tamil</a></li>
-							<li><a href="index.html#">Kanada</a></li>
+							<li><a href="#">Hindi</a></li>
+							<li><a href="#">Tamil</a></li>
+							<li><a href="#">Kanada</a></li>
 						</ul>
 					</div>
 					<!-- Language ends -->
 					
 					<!-- Search section for responsive design -->
 					<div class="tb-search pull-left">
-						<a href="index.html#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
+						<a href="#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
 						<div class="b-dropdown-block">
 							<form role="form">
 								<!-- Input Group -->
@@ -94,11 +94,11 @@
 					<div class="tb-social pull-right">
 						<div class="brand-bg text-right">
 							<!-- Brand Icons -->
-							<a href="index.html#" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
-							<a href="index.html#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
-							<a href="index.html#" class="google-plus"><i class="fa fa-google-plus square-2 rounded-1"></i></a>
-							<a href="index.html#" class="linkedin"><i class="fa fa-linkedin square-2 rounded-1"></i></a>
-							<a href="index.html#" class="pinterest"><i class="fa fa-pinterest square-2 rounded-1"></i></a>
+							<a href="#" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
+							<a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
+							<a href="#" class="google-plus"><i class="fa fa-google-plus square-2 rounded-1"></i></a>
+							<a href="#" class="linkedin"><i class="fa fa-linkedin square-2 rounded-1"></i></a>
+							<a href="#" class="pinterest"><i class="fa fa-pinterest square-2 rounded-1"></i></a>
 						</div>
 					</div>
 					<!-- Social media ends -->
@@ -127,7 +127,7 @@
 							<div class="navy">			
 								<ul>
 									<!-- Main menu -->
-									<li><a href="index.html#">Home</a>										
+									<li><a href="#">Home</a>										
 									</li>																	
                                                                         <shiro:notAuthenticated>
 									<li><g:link controller="auth" action="login">Login</g:link></li>
@@ -136,7 +136,7 @@
                                                                         <li><g:link controller="auth" action="signOut">Logout</g:link></li>
                                                                         <li><g:link controller="reservacion" action="explorar">Explorar</g:link></li>
                                                                         </shiro:authenticated>
-									<li><a href="contact-us-one.html">Contact Us</a></li>
+									<li><a href="#">Contact Us</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->
@@ -147,7 +147,7 @@
 							
 							<!-- Search section -->
 							<div class="head-search pull-right">
-								<a href="index.html#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
+								<a href="#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
 								<div class="b-dropdown-block">
 									<form role="form">
 										<!-- Input Group -->
@@ -190,11 +190,11 @@
 								<p>Itaque earum rerum hic tenetur a atque atatum dele niti atque tenetur a atque atatum tenetur volup tatum.</p>
 								<div class="brand-bg">
 									<!-- Social Media Icons -->
-									<a href="index.html#" class="facebook"><i class="fa fa-facebook circle-3"></i></a>
-									<a href="index.html#" class="twitter"><i class="fa fa-twitter circle-3"></i></a>
-									<a href="index.html#" class="google-plus"><i class="fa fa-google-plus circle-3"></i></a>
-									<a href="index.html#" class="linkedin"><i class="fa fa-linkedin circle-3"></i></a>
-									<a href="index.html#" class="pinterest"><i class="fa fa-pinterest circle-3"></i></a>
+									<a href="#" class="facebook"><i class="fa fa-facebook circle-3"></i></a>
+									<a href="#" class="twitter"><i class="fa fa-twitter circle-3"></i></a>
+									<a href="#" class="google-plus"><i class="fa fa-google-plus circle-3"></i></a>
+									<a href="#" class="linkedin"><i class="fa fa-linkedin circle-3"></i></a>
+									<a href="#" class="pinterest"><i class="fa fa-pinterest circle-3"></i></a>
 								</div>
 								<div class="subscribe-box">
 									<h5 class="bold">Subscribe :</h5>
@@ -225,7 +225,7 @@
 									   Bharathi Nagar, South Cherry Road,<br />
 									   North Bangalore - 535089.</p>
 									<p class="tel"> <i class="fa fa-phone"></i> Tel : + (833) - 839 8393<br />
-									<i class="fa fa-envelope"></i>  Mail : <a href="index.html#">infodesk@uk.com</a><br />
+									<i class="fa fa-envelope"></i>  Mail : <a href="#">infodesk@uk.com</a><br />
 									<i class="fa fa-calendar"></i> Business Hours : 9:30 - 5:30</p>
 								</div>
 							</div>
@@ -243,14 +243,14 @@
 				<div class="container">
 					<!-- Footer Content -->
 						<!-- Paragraph -->
-						<p class="pull-left">Copyright &copy; 2014 - <a href="index.html#">Your Site</a></p>
+						<p class="pull-left">Copyright &copy; 2014 - <a href="#">Your Site</a></p>
 						<ul class="list-inline pull-right">
 							<!-- List -->
-							<li><a href="index.html">Home</a><li>
-							<li><a href="http://ashobiz.asia/brave18/demo/service.html">Service</a></li>
-							<li><a href="http://ashobiz.asia/brave18/demo/feature.html">Features</a></li>
-							<li><a href="http://ashobiz.asia/brave18/demo/about-us.html">About</a></li>
-							<li><a href="http://ashobiz.asia/brave18/demo/contact-us.html">Contact</a></li>
+							<li><a href="#">Home</a><li>
+							<li><a href="#">Service</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 						<!-- Clearfix -->
 						<div class="clearfix"></div>
@@ -264,7 +264,7 @@
 		<!-- Outer Ends -->		
 		
 		<!-- Scroll to top -->
-		<span class="totop"><a href="index.html#"><i class="fa fa-angle-up bg-color"></i></a></span>
+		<span class="totop"><a href="#"><i class="fa fa-angle-up bg-color"></i></a></span>
 		
 		<!-- Javascript files -->
 		<!-- jQuery -->

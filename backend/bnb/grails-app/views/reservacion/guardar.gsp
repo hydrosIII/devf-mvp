@@ -26,7 +26,7 @@
                                     <!-- Our Process Item-->
                                 <div class="our-process-item">
                                         <!-- Icon -->
-                                    <a href="about-us-one.html#" class="white bg-green"> <i class="fa  fa-check"></i></a>
+                                    <a href="#" class="white bg-green"> <i class="fa  fa-check"></i></a>
                                     <!-- Arrow Image -->
 <!-- Heading -->
                                     <h4>Tu reservacion ha sido registrada</h4>
