@@ -38,7 +38,7 @@
                 <div class="message">${flash.message}</div>
             </g:if>
             <div class="ui-40">
-                <div class="ui-head bg-lblue">
+                <div class="ui-head bg-black">
                         <!-- Heading -->
                     <h2>Ligar</h2>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="ui-block bg-white">
                         <!-- Icon -->
                     <div class="ui-icon">
-                        <i class="fa fa-envelope lblue"></i>
+                        <i class="fa fa-user black"></i>
                     </div>
                     <!-- Input box -->
                     <div class="ui-input">
@@ -56,7 +56,7 @@
                 <div class="clearfix"></div>
                 <div class="ui-block bg-white">
                     <div class="ui-icon">
-                        <i class="fa fa-unlock-alt lblue"></i>
+                        <i class="fa fa-at black"></i>
                     </div>
                     <div class="ui-input">
                         <input type="text" class="form-control" placeholder="Correo" name="email" value="" >
@@ -64,7 +64,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <!-- Footer -->
-                <div class="ui-foot bg-lblue">
+                <div class="ui-foot bg-black">
                         <!-- Buttons -->
                     <button type="submit" class="ui-button">Guardar</button> 
                 </div>

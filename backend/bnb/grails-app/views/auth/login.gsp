@@ -31,7 +31,7 @@
                 <div class="message">${flash.message}</div>
             </g:if>
             <div class="ui-40">
-                <div class="ui-head bg-lblue">
+                <div class="ui-head bg-black">
                         <!-- Heading -->
                     <h2>Entrar</h2>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="ui-block bg-white">
                         <!-- Icon -->
                     <div class="ui-icon">
-                        <i class="fa fa-envelope lblue"></i>
+                        <i class="fa fa-user black"></i>
                     </div>
                     <!-- Input box -->
                     <div class="ui-input">
@@ -49,7 +49,7 @@
                 <div class="clearfix"></div>
                 <div class="ui-block bg-white">
                     <div class="ui-icon">
-                        <i class="fa fa-unlock-alt lblue"></i>
+                        <i class="fa fa-unlock-alt black"></i>
                     </div>
                     <div class="ui-input">
                         <input type="password" class="form-control" placeholder="Password" name="password" value="" >
@@ -57,12 +57,15 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="bg-white">
-                        <oauth:connect provider="twitter"  class="btn btn-default" style="margin-left: 3px; margin-top: 5px; margin-bottom: 5px;">Entrar con Twitter</oauth:connect>
-                        <oauth:connect provider="facebook" class="btn btn-default">Entrar con Facebook</oauth:connect>
+                        <oauth:connect provider="twitter"  class="btn btn-info btn-lg btn-block" > <i class="fa fa-twitter-square"></i> Entrar con Twitter</oauth:connect>
                 </div>
                 <div class="clearfix"></div>
+                <div class="bg-white">
+                    <oauth:connect provider="facebook" class="btn btn-primary btn-lg btn-block"> <i class="fa fa-facebook-square"></i> Entrar con Facebook</oauth:connect>
+                </div>
+
                 <!-- Footer -->
-                <div class="ui-foot bg-lblue">
+                <div class="ui-foot bg-black">
                         <!-- Buttons -->
                     <button type="submit" class="ui-button">Entrar</button> 
                 </div>
