@@ -129,7 +129,13 @@
 									<!-- Main menu -->
 									<li><a href="index.html#">Home</a>										
 									</li>																	
+                                                                        <shiro:notAuthenticated>
 									<li><g:link controller="auth" action="login">Login</g:link></li>
+                                                                        </shiro:notAuthenticated>
+                                                                        <shiro:authenticated>
+                                                                        <li><g:link controller="auth" action="signOut">Logout</g:link></li>
+                                                                        <li><g:link controller="reservacion" action="explorar">Explorar</g:link></li>
+                                                                        </shiro:authenticated>
 									<li><a href="contact-us-one.html">Contact Us</a></li>
 								</ul>
 							</div>							

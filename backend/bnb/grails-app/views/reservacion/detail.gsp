@@ -140,119 +140,7 @@
 													</tbody></table>
 												</div>
 											</div>
-										</div>
-										<div class="tab-pane fade" id="p-nav-4">
-											<!-- Single property page property pricing -->
-											<div class="single-property sp-price">
-												<!-- pricing table -->
-												<div class="table-responsive">
-													<table class="table table-bordered">
-														<thead>
-															<tr>
-																<th>Construction</th>
-																<th>BHK</th>
-																<th>Size(ft<sup>2</sup>)</th>
-																<th>BSP($)</th>
-																<th>Booking Amount</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>Apartment</td>
-																<td>2BHK</td>
-																<td>1600</td>
-																<td>$249.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>3BHK</td>
-																<td>2500</td>
-																<td>$299.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK</td>
-																<td>3000</td>
-																<td>$449.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>2BHK+Study</td>
-																<td>2400</td>
-																<td>$349.00</td>
-																<td>11% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK+2TOI</td>
-																<td>3500</td>
-																<td>$749.00</td>
-																<td>12% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>3BHK</td>
-																<td>2500</td>
-																<td>$299.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK</td>
-																<td>3000</td>
-																<td>$449.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>2BHK+Study</td>
-																<td>2400</td>
-																<td>$349.00</td>
-																<td>11% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK+2TOI</td>
-																<td>3500</td>
-																<td>$749.00</td>
-																<td>12% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>3BHK</td>
-																<td>2500</td>
-																<td>$299.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK</td>
-																<td>3000</td>
-																<td>$449.00</td>
-																<td>10% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>2BHK+Study</td>
-																<td>2400</td>
-																<td>$349.00</td>
-																<td>11% of BSP</td>
-															</tr>
-															<tr>
-																<td>Apartment</td>
-																<td>5BHK+2TOI</td>
-																<td>3500</td>
-																<td>$749.00</td>
-																<td>12% of BSP</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-										</div>
+										</div>										
 									</div>
 								</div>
 							</div>
@@ -266,7 +154,11 @@
 									<!-- Hot Properties Widget -->																
 								<!-- Gallery Widget -->
 								
-									
+									<div class="s-widget">
+                                                                            <g:link action="reservar" id="${casa.id}" class="btn btn-success btn-lg btn-block">
+                                                                                Reservar
+                                                                            </g:link>
+                                                                        </div>
 									<!-- Social media widget -->
 									<div class="s-widget">
 										<h5><i class="fa fa-share color"></i>&nbsp; Social Media</h5>
