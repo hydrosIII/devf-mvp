@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="style.css" />
+
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+
+
+
+<!-- Intro Header -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading">
+
+                <img src="img/casa.jpg" class="img-responsive">
+
+
+</p>
+<font size="6">Busca casas en México</font>
+<p>
+    <p>
+        ¿A que ciudad vas? </h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+	var $j = jQuery.noConflict();
+	$j(document).ready(function(){
+		$j('#calendar').datepicker();
+		});
+</script>
+
+
+
+<div class="col-md-8">
+    <form class="form-horizontal my-form" id="calendario"
+        <p>Fecha: <input type="text" id="datepicker"></p>
+    </form>
+</div>
+
+
+        <div class="col-md-8">
+            <div class="input-group">
+                    <input type="text" class="form-control" name="destination" id="destination"
+                           placeholder="e.g. Guadalajara" required />
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" id="search-route">Encuentra</button>
+                    </span>
+                </div>
+            </div>
+</div>
+
+        </form>
+
+
+
+        <script src="/static/js/map.js"></script>
+
+        <div class="">
+            <div id="map1"></div>
+        </div>
+
+
+
+        <script src="/static/js/map.js"></script>
