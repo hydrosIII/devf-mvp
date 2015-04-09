@@ -24,7 +24,7 @@
 										data-y="25" data-voffset="0"
 										data-speed="500"
 										data-start="200"
-										style="z-index: 2;">TONS OF FEATURES
+										style="z-index: 2;">Cientos de casas
 									</div>
 
 									<!-- Layer 2 -->
@@ -33,7 +33,7 @@
 										data-y="60" data-voffset="0"
 										data-speed="500"
 										data-start="700"
-										style="z-index: 2;">BEST THEME EVER MADE
+										style="z-index: 2;">Los mejores hosts
 									</div>									
 								
 									<!-- Layer 3 -->
@@ -99,7 +99,7 @@
 										data-elementdelay="0.1"
 										data-endelementdelay="0.1"
 										data-endspeed="300"
-										style="z-index: 2;">SOME OF OUR DESIGNS
+										style="z-index: 2;">Utiliza nuestra app
 									</div>		
 
 									<!-- Layer 2 -->
@@ -143,7 +143,7 @@
 										data-y="70" data-voffset="0"
 										data-speed="1000"
 										data-start="100"
-										style="z-index: 2;">IF YOU HAVE BRAVE
+										style="z-index: 2;">Para el fin de semana
 									</div>
 									
 									<!-- Layer 2 -->
@@ -157,7 +157,7 @@
 										data-elementdelay="0.07"
 										data-endelementdelay="0.07"
 										data-endspeed="300"
-										style="z-index: 2;">POWER IS IN YOUR HAND
+										style="z-index: 2;">A veces los lugares más increibles están cerca de casa
 									</div>
 									
 									<!-- Layer 3 -->
@@ -166,7 +166,7 @@
 										data-y="200"
 										data-speed="800"
 										data-start="2300"
-										style="z-index: 8">Lorem Ipsum is simply dummy text of the printing industry. Lorem Ipsum is simply dummy text of the <br /> printing industry. Lorem Ipsum dummy printing dummy industry.
+										style="z-index: 8">viaja por todo el país. <br /> Disfruta tu estadia.
 									</div>
 									
 									<!-- Layer 4 -->
@@ -176,7 +176,7 @@
 										data-speed="800"
 										data-start="2800"
 										style="z-index: 8">
-										<a href="index.html#" class="bg-color rounded-1">Buy It Now</a>
+										<a href="index.html#" class="bg-color rounded-1">Reserva ya</a>
 									</div>									
 									
 								</li>
@@ -199,7 +199,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">BEST
+										style="z-index: 7">EXPLORA
 									</div>
 
 									<!-- LAYER NR. 2 -->
@@ -212,7 +212,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">THEME
+										style="z-index: 7">EL
 									</div>
 
 									<!-- LAYER NR. 3 -->
@@ -225,7 +225,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">EVER
+										style="z-index: 7">MUNDO
 									</div>
 
 									<!-- LAYER NR. 4 -->
@@ -238,7 +238,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">LITERALLY !!!
+										style="z-index: 7">YAA !!!
 									</div>
 
 									<!-- LAYER NR. 7 -->
@@ -266,7 +266,7 @@
 										data-y="80"
 										data-speed="500"
 										data-start="800"
-										style="z-index: 4">One Theme 
+										style="z-index: 4">Jamas 
 									</div>
 
 									<!-- Layer 2 -->
@@ -275,7 +275,8 @@
 										data-y="95"
 										data-speed="500"
 										data-start="900"
-										style="z-index: 5">You
+										style="z-index: 5">
+										tendras
 									</div>
 
 									<!-- Layer 3 -->
@@ -284,7 +285,7 @@
 										data-y="148"
 										data-speed="300"
 										data-start="1000"
-										style="z-index: 6">Fall In
+										style="z-index: 6">problemas
 									</div>
 
 									<!-- Layer 4 -->
@@ -293,7 +294,7 @@
 										data-y="132"
 										data-speed="300"
 										data-start="1100"
-										style="z-index: 7">Love With
+										style="z-index: 7">con nosotros
 									</div>
 
 									<!-- Layer 5 -->
@@ -302,7 +303,7 @@
 										data-y="200"
 										data-speed="500"
 										data-start="1300"
-										style="z-index: 8">Lorem Ipsum is simply dummy text of the printing <br /> industry. Lorem Ipsum is simply dummy text of the <br /> printing industry. Lorem Ipsum printing industry.
+										style="z-index: 8">
 									</div>
 									
 									<!-- Layer 6 -->
@@ -320,7 +321,7 @@
 										data-y="90"
 										data-speed="700"
 										data-start="2000"
-										style="z-index: 7">TON'S OF FEATURES
+										style="z-index: 7">MUCHAS CASAS
 									</div>
 
 									<!-- Layer 8 -->
@@ -329,7 +330,7 @@
 										data-y="150"
 										data-speed="700"
 										data-start="2300"
-										style="z-index: 7">210+ HTML FILES
+										style="z-index: 7">Soló lo mejor
 									</div>	
 
 									<!-- Layer 9 -->
@@ -338,7 +339,7 @@
 										data-y="210"
 										data-speed="700"
 										data-start="2600"
-										style="z-index: 7">ALL IN ONE THEME
+										style="z-index: 7">Todo aquí
 									</div>	
 
 									<!-- Layer 10 -->
@@ -347,7 +348,7 @@
 										data-y="270"
 										data-speed="700"
 										data-start="2900"
-										style="z-index: 7">UNBELIVABLE PRICE
+										style="z-index: 7">Con precios increibles!
 									</div>										
 									
 								</li>
