@@ -93,6 +93,78 @@ class BootStrap {
             tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
             tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
         ).save()
+        new Casa(
+            titulo:"Loft en Vallarta",            
+            descripcion:"Cómodo Loft en Vallarta. Perfecto para Luna de miel",
+            direccion: "Puerto Vallarta 650",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Puerto Vallarta"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Loft"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Habitacion privada")
+        ).save()
+        new Casa(
+            titulo:"Cabaña en Cancún",            
+            descripcion:"Se vende pescado frito con limón",
+            direccion: "Blvd. Kukulcan 5400",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Cancún"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Cabaña"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Habitacion privada")
+        ).save()
+        new Casa(
+            titulo:"Justo en la paz de Baja",            
+            descripcion:"Bed & Breakfast para sprinbreakers",
+            direccion: "Av. de la Paz 750",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Baja California Sur"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Bed & Breakfast"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"Oaxaca, casa de ensueño",            
+            descripcion:"Casa con vista a Monte Alban",
+            direccion: "Ruta a Monte Alban sin número",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Oaxaca"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Casa"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"Departamento de Lujo",            
+            descripcion:"Lujoso departamento en el corazón de polanco",
+            direccion: "Goldsmith 40",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Distrito Federal"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
+        new Casa(
+            titulo:"Departamento compartido",            
+            descripcion:"Departamento compartido en el centro de chilangolandia",
+            direccion: "Cuauhtemoc 345",
+            lat: 123.1231,
+            lon: 123.123,
+            precio: 12312.50,
+            capacidad: 4,
+            ciudad: Ciudad.findByNombre("Departamento"),
+            tipoAlojamiento: TipoAlojamiento.findByNombre("Departamento"),
+            tipoHabitacion: TipoHabitacion.findByNombre("Casa/apto. entero")
+        ).save()
         
     }
     def destroy = {
