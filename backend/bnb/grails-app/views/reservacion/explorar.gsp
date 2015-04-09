@@ -23,7 +23,7 @@
                     <div class="nav-tabs-two">
                             <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="real-estate-index.html#tab-1" data-toggle="tab">For Rent</a></li>
+                            <li class="active"><a href="#tab-1" data-toggle="tab">For Rent</a></li>
                         </ul>
                         <!-- Tab content -->
                         <div class="tab-content">
@@ -144,7 +144,7 @@
                                         <span class="hover-bottom bg-red">${casa.tipoHabitacion}</span>
                                     </div>
                                     <!-- product title -->
-                                    <h4><a href="real-estate-property-single.html">${casa.titulo}</a></h4>
+                                    <h4><a href="#">${casa.titulo}</a></h4>
                                     <!-- product details -->
                                     <div class="property-details">
                                         <g:link action="detail" id="${casa.id}"  class="ecom pull-right">Mas informacion</g:link>
