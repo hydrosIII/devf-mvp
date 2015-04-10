@@ -24,7 +24,7 @@
 										data-y="25" data-voffset="0"
 										data-speed="500"
 										data-start="200"
-										style="z-index: 2;">Los mejores hostsCientos de casas
+										style="z-index: 2;">Los mejores hosts
 									</div>
 
 									<!-- Layer 2 -->
@@ -166,7 +166,7 @@
 										data-y="200"
 										data-speed="800"
 										data-start="2300"
-										style="z-index: 8">viaja por todo el país. <br /> Disfruta tu estadia.
+										style="z-index: 8">Viaja por todo el país. <br /> Disfruta tu estadia.
 									</div>
 									
 									<!-- Layer 4 -->
@@ -266,7 +266,7 @@
 										data-y="80"
 										data-speed="500"
 										data-start="800"
-										style="z-index: 4">Jamas tendras
+										style="z-index: 4">Quedate
 									</div>
 
 									<!-- Layer 2 -->
@@ -276,7 +276,7 @@
 										data-speed="500"
 										data-start="900"
 										style="z-index: 5">
-										problemas
+										
 									</div>
 
 									<!-- Layer 3 -->
